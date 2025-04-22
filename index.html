@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>WithMangg Solutions | Jasa Pembuatan Website & Aplikasi</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <!-- GSAP Core -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
+
+<!-- ScrollTrigger Plugin -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<!-- Then your custom script -->
+
+    
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <div class="logo-icon">W</div>
+                    <div class="logo-text">With<span>Mangg</span></div>
+                </div>
+
+                <ul class="menu">
+                    <li><a href="#home" class="active">Beranda</a></li>
+                    <li><a href="#features">Fitur</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#pricing">Harga</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+
+                <button class="cta-button btn-hover-effect">Konsultasi Gratis</button>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal">
+                    <h1>Solusi Digital <span>Modern</span> untuk Bisnis Anda</h1>
+                    <p>Buat website dan aplikasi dengan desain menarik dan teknologi terkini. Kami membantu bisnis Anda tumbuh di era digital dengan solusi yang tepat dan inovatif.</p>
+                    <div class="hero-cta">
+                        <button class="cta-button btn-hover-effect">Mulai Sekarang</button>
+                        <button class="secondary-btn">Pelajari Lebih Lanjut</button>
+                    </div>
+                </div>
+                <div class="hero-img reveal">
+                    <div class="hero-img-wrapper float-animation">
+                        <img src="/assets/logo3d.png" alt="Web Development">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Mengapa Memilih Kami</h2>
+                <p>Kami menawarkan layanan pembuatan website dan aplikasi dengan kualitas terbaik menggunakan teknologi modern dan desain yang menarik.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desain Modern</h3>
+                    <p>Website dan aplikasi dengan tampilan modern, responsif, dan menarik yang sesuai dengan identitas brand Anda.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsif</h3>
+                    <p>Tampilan yang sempurna di semua ukuran layar, dari desktop hingga smartphone untuk pengalaman pengguna yang optimal.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Performa Cepat</h3>
+                    <p>Kecepatan loading yang tinggi dan optimasi performa untuk meningkatkan peringkat SEO dan pengalaman pengguna.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Keamanan Terjamin</h3>
+                    <p>Implementasi standar keamanan terkini untuk melindungi website dan data pelanggan Anda.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Friendly</h3>
+                    <p>Optimasi mesin pencari untuk meningkatkan peringkat dan visibilitas bisnis Anda di Google.</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Dukungan Premium</h3>
+                    <p>Layanan dukungan 24/7 dan pemeliharaan website untuk memastikan bisnis online Anda selalu berjalan lancar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Layanan Kami</h2>
+                <p>Kami menyediakan berbagai layanan digital untuk membantu bisnis Anda berkembang di era modern.</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-item reveal">
+                    <div class="service-content">
+                        <h3>Website Development</h3>
+                        <p>Kami membuat website profesional dengan desain custom yang sesuai dengan identitas brand dan kebutuhan bisnis Anda. Semua website kami responsif, SEO friendly, dan mudah dikelola.</p>
+                        <div class="service-features">
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Desain Custom</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Responsif</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>SEO Friendly</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>CMS Integration</span>
+                            </div>
+                        </div>
+                        <button class="cta-button btn-hover-effect" style="margin-top: 30px;">Selengkapnya</button>
+                    </div>
+                    <div class="service-image img-hover-zoom">
+                        <img src="/assets/developer_male.png" alt="Web Development">
+                    </div>
+                </div>
+                
+                <div class="service-item reveal">
+                    <div class="service-content">
+                        <h3>Mobile App Development</h3>
+                        <p>Kembangkan aplikasi mobile untuk iOS dan Android yang sesuai dengan kebutuhan bisnis Anda. Kami memastikan aplikasi Anda memiliki tampilan menarik, performa tinggi, dan pengalaman pengguna yang optimal.</p>
+                        <div class="service-features">
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>iOS & Android</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>UI/UX Modern</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Integrasi API</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Push Notification</span>
+                            </div>
+                        </div>
+                        <button class="cta-button btn-hover-effect" style="margin-top: 30px;">Selengkapnya</button>
+                    </div>
+                    <div class="service-image img-hover-zoom">
+                        <img src="/assets/developer_male.png" alt="Mobile App Development">
+                    </div>
+                </div>
+                
+                <div class="service-item reveal">
+                    <div class="service-content">
+                        <h3>E-Commerce Development</h3>
+                        <p>Buat toko online profesional dengan fitur lengkap untuk menjual produk dan layanan Anda secara online. Kami membantu Anda membangun platform e-commerce yang aman, mudah digunakan, dan siap bersaing.</p>
+                        <div class="service-features">
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Payment Gateway</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Inventory Management</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Checkout Otomatis</span>
+                            </div>
+                            <div class="service-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Reporting Analytics</span>
+                            </div>
+                        </div>
+                        <button class="cta-button btn-hover-effect" style="margin-top: 30px;">Selengkapnya</button>
+                    </div>
+                    <div class="service-image img-hover-zoom">
+                        <img src="/assets/developer_male.png" alt="E-Commerce Development">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Paket Harga</h2>
+                <p>Pilih paket yang sesuai dengan kebutuhan dan budget bisnis Anda. Semua paket kami termasuk konsultasi dan dukungan premium.</p>
+            </div>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card reveal">
+                    <div class="pricing-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h3>Starter</h3>
+                    <p>Solusi terbaik untuk bisnis kecil atau personal</p>
+                    <div class="pricing-price">
+                        Rp650<span>/Ribu</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Website 4 Halaman</li>
+                        <li><i class="fas fa-check"></i> Desain Responsif</li>
+                        <li><i class="fas fa-check"></i> Gratis Domain my.id, web.id 1 Tahun</li>
+                        <li><i class="fas fa-check"></i> SSL Sertificate</li>
+                        <li><i class="fas fa-check"></i> Form Kontak</li>
+                        <li><i class="fas fa-check"></i> Hosting 1 Tahun</li>
+                        <li><i class="fas fa-check"></i> Support Selamanya</li>
+                    </ul>
+                    <button class="cta-button btn-hover-effect">Pilih Paket</button>
+                </div>
+                
+                <div class="pricing-card popular reveal">
+                    <div class="popular-badge">Populer</div>
+                    <div class="pricing-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Business</h3>
+                    <p>Solusi lengkap untuk bisnis menengah</p>
+                    <div class="pricing-price">
+                        Rp1,5<span>/juta</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Website 6 Halaman</li>
+                        <li><i class="fas fa-check"></i> Desain Premium</li>
+                        <li><i class="fas fa-check"></i> CMS Lengkap</li>
+                        <li><i class="fas fa-check"></i> Integrasi Social Media</li>
+                        <li><i class="fas fa-check"></i> SEO Basic</li>
+                        <li><i class="fas fa-check"></i> Hosting 1 Tahun</li>
+                        <li><i class="fas fa-check"></i> Support 6 Bulan</li>
+                    </ul>
+                    <button class="cta-button btn-hover-effect">Pilih Paket</button>
+                </div>
+                
+                <div class="pricing-card reveal">
+                    <div class="pricing-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Enterprise</h3>
+                    <p>Solusi custom untuk perusahaan besar</p>
+                    <div class="pricing-price">
+                        Rp10<span>/juta+</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Website Unlimited</li>
+                        <li><i class="fas fa-check"></i> Desain Custom Premium</li>
+                        <li><i class="fas fa-check"></i> CMS Enterprise</li>
+                        <li><i class="fas fa-check"></i> E-Commerce Integration</li>
+                        <li><i class="fas fa-check"></i> SEO Advanced</li>
+                        <li><i class="fas fa-check"></i> Security Advanced</li>
+                        <li><i class="fas fa-check"></i> Hosting 2 Tahun</li>
+                        <li><i class="fas fa-check"></i> Support 12 Bulan</li>
+                    </ul>
+                    <button class="cta-button btn-hover-effect">Hubungi Kami</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Portfolio Kami</h2>
+                <p>Lihat beberapa proyek terbaik yang telah kami kerjakan untuk klien dari berbagai industri.</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="portfolio-filter active" data-filter="all">Semua</button>
+                <button class="portfolio-filter" data-filter="web">Website</button>
+                <button class="portfolio-filter" data-filter="app">Mobile App</button>
+                <button class="portfolio-filter" data-filter="ecommerce">E-Commerce</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Beauty Spa Website</h3>
+                        <div class="portfolio-category">Website Design</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Beauty Spa Website</h3>
+                            <p>Website modern untuk salon kecantikan dengan desain elegan dan sistem booking online.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Food Delivery App</h3>
+                        <div class="portfolio-category">Mobile App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Food Delivery App</h3>
+                            <p>Aplikasi pengantaran makanan dengan fitur tracking realtime dan sistem pembayaran terintegrasi.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Fashion Store</h3>
+                        <div class="portfolio-category">E-Commerce</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Fashion Store</h3>
+                            <p>Toko online fashion dengan tampilan premium dan sistem manajemen produk yang lengkap.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Real Estate Agency</h3>
+                        <div class="portfolio-category">Mobile App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Fitness Tracker</h3>
+                            <p>Aplikasi pelacak kesehatan dan kebugaran dengan visualisasi data dan program latihan personal.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 5">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Fitness Tracker</h3>
+                        <div class="portfolio-category">Mobile App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Fitness Tracker</h3>
+                            <p>Aplikasi pelacak kesehatan dan kebugaran dengan visualisasi data dan program latihan personal.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="/assets/developer_male.png" alt="Portfolio 6">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Electronic Store</h3>
+                        <div class="portfolio-category">E-Commerce</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h3>Electronic Store</h3>
+                            <p>Toko online elektronik dengan sistem perbandingan produk dan review terintegrasi.</p>
+                            <a href="#" class="portfolio-btn">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Testimoni Klien</h2>
+                <p>Apa kata klien kami tentang layanan yang kami berikan. Kepuasan klien adalah prioritas utama kami.</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content reveal">
+                            <p class="testimonial-text">"WithMangg Solutions benar-benar memahami kebutuhan bisnis kami. Website yang mereka buat tidak hanya menarik secara visual tetapi juga fungsional dan user-friendly. Terima kasih atas kerja kerasnya!"</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="/api/placeholder/60/60" alt="Client 1">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>Budi Santoso</h4>
+                                    <p>CEO, Santoso Property</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Aplikasi yang dibuat oleh tim WithMangg sangat membantu bisnis kami. Prosesnya cepat, komunikasi lancar, dan hasil akhirnya melampaui ekspektasi kami. Sangat direkomendasikan!"</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="/api/placeholder/60/60" alt="Client 2">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>Ratna Wijaya</h4>
+                                    <p>Manager, Harmony Cafe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Toko online kami mengalami peningkatan penjualan yang signifikan setelah dibuatkan website oleh WithMangg. Desainnya menarik dan mudah digunakan oleh customer. Saya sangat puas dengan hasilnya."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="/api/placeholder/60/60" alt="Client 3">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>Andi Prasetyo</h4>
+                                    <p>Owner, Prasetyo Fashion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <div class="testimonial-dot active"></div>
+                    <div class="testimonial-dot"></div>
+                    <div class="testimonial-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-gradient">Hubungi Kami</h2>
+                <p>Punya pertanyaan atau ingin berdiskusi tentang proyek Anda? Jangan ragu untuk menghubungi kami.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Alamat</h4>
+                            <p>Ds. Pesarean Rt.05 Rw.04 No.51 Kecamatan Pagerbarang - Kabupaten Tegal, Jawa Tengah - Indonesia, 52462</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 857-1305-0749</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@WithMangg.my.id</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Jam Kerja</h4>
+                            <p>Senin - Jumat: 09:00 - 17:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form reveal">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Nama</label>
+                            <input type="text" class="form-control" placeholder="Masukkan nama Anda">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Masukkan email Anda">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Subjek</label>
+                            <input type="text" class="form-control" placeholder="Masukkan subjek pesan">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Pesan</label>
+                            <textarea class="form-control" placeholder="Tulis pesan Anda di sini..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="cta-button btn-hover-effect">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon">W</div>
+                        <div class="logo-text">With<span>Mangg</span></div>
+                    </div>
+                    <p class="footer-desc">WithMangg Solutions adalah perusahaan digital agency yang berfokus pada pembuatan website, aplikasi mobile, dan solusi digital untuk bisnis.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Layanan</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Website Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile App Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> E-Commerce Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Link Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Layanan</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Newsletter</h4>
+                    <p class="footer-desc">Berlangganan newsletter kami untuk mendapatkan update terbaru dan penawaran spesial.</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 WithMangg Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon" id="icon-moon" ></i>
+        <i class="fas fa-sun" id="icon-sun" style="display: none;"></i>
+    </div>
+    
+
+   <script src="script.js"></script>
